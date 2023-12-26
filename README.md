@@ -1,32 +1,20 @@
-# Advent of Code 2019
- 
-Submissions for Advent of Code.
+# Advent of code
 
-## Getting Started
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-Ensure that you've signed up to [Advent of Code](https://adventofcode.com/).
+Solutions for Advent of code challenges.
 
-### Prerequisites
+## Table of Contents
 
-The 2019 sub-directory requires:
+- [Install](#install)
+- [Usage](#usage)
 
-* [Python3.7 or above](https://www.python.org/downloads/)
+## Install
 
-The 2021 sub-directory requires:
+This project uses `make`, `poetry` and `python==3.10`. Please install these before continuing.
 
-* [Python3.9 or above](https://www.python.org/downloads/)
+Run `make env` to install dependencies for this project.
 
-All data for this repository can be found via [Advent of Code](https://adventofcode.com/). Each participant receives different input data so the data you see in the repository is specific to me.
+## Usage
 
-## Solutions
-
-All the code I've used to created to solve the questions can be found in the respective years. For `2019`, I condensed these all into one file which can be found in `models`. For `2021`, I've approached it more loosely, where each day's code can be found in a respectively named notebook.
-
-## Contributors
-
-* **Mitchell Murphy**
-    * 2019, 2021
-
-## License
-
-This project is licensed under GNU GPLv3 found [here](./LICENSE.txt).
+Upload your data for each day number under the filename `day_{number}.txt` into the relevant `data/{year}`. After this, you can run the code for each notebook `notebook/{year}/day_{number}.ipynb` to retrieve your answers.
